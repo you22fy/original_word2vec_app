@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #C4FDB9;
+    height: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    color:#438037;
+    font-family: "ヒラギノ角ゴ Pro W3";
+}
+header a {
+    color: #438037;
+    text-decoration: none;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width: 100%;
+    margin-top: 5%;
+}
+
+
+header ul {
+    display: flex;
+}
+header li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+footer {
+    color: white;
+    height: 50px;
+    background-color: #000;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: center;
+}
